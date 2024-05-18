@@ -40,7 +40,7 @@
 
 ## Project Overview
 
-The goal of `final_project` is to take everything you have learned in this class and deploy a fully functional prediction API accessible to end users.
+The goal of `final_project` is to deploy a fully functional prediction API accessible to end users.
 
 You will:
 
@@ -69,7 +69,7 @@ You will:
 - [ ] Deploy your application to `AKS` similar to labs 4/5
 - [ ] Run `k6` against your application with the provided `load.js`
 - [ ] Capture screenshots of your `grafana` dashboard for your service/workload during the execution of your `k6` script
-- [ ] Feel extremely proud about all the learning you went through over the semester and how this will help you develop professionally and enable you to deploy an API effectively during capstone. There is much to learn, but getting the fundamentals are key.
+- [ ] Feel extremely proud about all the learning you went through over the code/files and how this will help you develop professionally and enable you to deploy an API effectively during work. There is much to learn, but getting the fundamentals are key.
 
 ## Helpful Information
 
