@@ -92,3 +92,5 @@ Do not run `poetry update` it will take a long time due to the handling of `torc
 ### Git Large File Storage (LFS)
 
 You might need to install `git lfs` <https://git-lfs.github.com/>
+
+- [Back-To-Top](#final-project-full-end-to-end-machine-learning-api)
