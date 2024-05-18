@@ -37,9 +37,6 @@
     - [Pydantic Model Expectations](#pydantic-model-expectations)
     - [Poetry Dependancies](#poetry-dependancies)
     - [Git Large File Storage (LFS)](#git-large-file-storage-lfs)
-  - [Submission](#submission)
-  - [Grading](#grading)
-  - [Time Expectations](#time-expectations)
 
 ## Project Overview
 
@@ -95,26 +92,3 @@ Do not run `poetry update` it will take a long time due to the handling of `torc
 ### Git Large File Storage (LFS)
 
 You might need to install `git lfs` <https://git-lfs.github.com/>
-
-## Submission
-
-All code will be graded off your repo's `main` branch and `AKS` deployment. No additional forms or submission processes are needed.
-
-## Grading
-
-All items are conditional on a `95%` cache rate, and after a `10 minute` sustained load:
-
-|                  **Criteria**                  |                          **0%**                          |                            **50%**                            |                        **90%**                         |                   **100%**                   |
-|:---------------------------------------------: |:-------------------------------------------------------: |:------------------------------------------------------------: |:-----------------------------------------------------: |:-------------------------------------------: |
-| _Functional API_                               | No Endpoints Work                                        | Some Endpoints Functional                                     | Most Endpoints Functional                              | All Criteria Met                             |
-| _Caching_                                      | No Attempt at Caching                                    | Caching system instantiated but not used                      | Caching system created but missing some functionality  | All Criteria Met                             |
-| _Kubernetes Practices_                         | No Attempt at Deployments                                | Deployments exist but lack key functionality                  | Kubernetes deployment mostly functional                | All Criteria Met                             |
-| _Testing_                                      | No Testing is done                                       | Minimal amount of testing done. No testing of new endpoints.  | Only "happy path" tested and with minimal cases        | All Criteria Met                             |
-| _Passing Provided Tests_                       | Pydantic model does not adhere to our given pytest file  | Pydantic model somewhat passes pytest file                    | Pydantic model mostly passes pytest file               | All Criteria Met                             |
-| _Model Loading_                                | Model loads from hugging face on API instantiation       | N/A                                                           | N/A                                                    | Model is loaded into the container at build  |
-| _Predict Endpoint Performance_                 | Endpoint performs at 1 request/second                    | Endpoint performs at 5 requests/second                        | Endpoint performs at 9 request/second                  | Endpoint performs at 10 requests/second      |
-| _Predict Endpoint Latency @ 10 Virtual Users_  | p(99) < 10 seconds                                       | p(99) < 5 seconds                                             | p(99) < 3 seconds                                      | p(99) < 2 seconds                            |
-
-## Time Expectations
-
-This project will take approximately ~10 hours.
